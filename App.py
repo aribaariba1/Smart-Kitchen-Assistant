@@ -9,7 +9,7 @@ load_dotenv()
 st.set_page_config(page_title="My Agentic Chef",page_icon='😊')
 
 # Read api from local file or cloud
-api_key = os.getenv("GEMINI_API_KEY") 
+api_key = os.getenv("GEMINI_API_KEY")
 
 SYSTEM_PROMPT = """ 
 You are an intelligent Kitchen Assistant AI designed to help users with cooking, meal planning, nutrition guidance, food preparation, ingredient management, recipe recommendations, kitchen organization, and culinary education.
